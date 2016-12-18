@@ -1,5 +1,6 @@
 # 1、概述 #
 这里是毫秒服务引擎的代码，分好几个模块，开发语言主要是java和c/c++。每个模块需要单独编译。
+官网 <http://haomiao.qq.com> 上有编译好的docker镜像和文档可以快速部署，强烈推荐。
 
 ## 编译环境要求 ##
 * gcc version >= 4.1.2
@@ -36,7 +37,7 @@ Web console的代码在msec\_console子目录，是一个典型的Java Web Appli
 * slf4j-api-1.7.18.jar
 * zookeeper-3.4.8.jar
 
-几乎所有上面的jar都能在http://mvnrepository.com/下载到。
+几乎所有上面的jar都能在 <http://mvnrepository.com/> 下载到。
 
 #3、remote shell#
 ## 3.1 简介 ##
@@ -166,10 +167,6 @@ srpc是一个逻辑层rpc框架。子目录spp\_rpc是srpc的源码，使用C++�
 * php
 * r3c
 
-为了适配微线程，修改了以下库
-
-* mysql-connector-c-6.1.6
-* hiredis-0.13.3
 
 # 8、srpc\_java #
 ## 8.1 简介 ##
@@ -201,7 +198,7 @@ srpc\_java是一个逻辑层的java框架, 对应的子目录是msec\_srpc\_java
 
 ## 9.1 简介 ##
 
-Logsys是msec中日志系统。子目录spp\_rpc是srpc的源码，使用C++作为主开发语言，支持C++/Python/PHP语言，C++支持微线程。
+Logsys是msec中日志系统。
 
 源码主要目录介绍：
 
